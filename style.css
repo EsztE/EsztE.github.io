@@ -1,0 +1,161 @@
+header{
+  background: grey;
+  width: 1300px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+a:hover{
+  color: lime;
+}
+
+a{
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+.container1 {
+  width: 1300px;
+  display: flex;
+  font-family: 'Space Mono', monospace;
+  /*position: relative*/
+}
+
+.picture{
+  position: relative;
+  height: 370px;
+  width: 500px;
+  background: center url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+  background-size: 1200px;
+  background-repeat: no-repeat;
+}
+
+aside{
+  /*font-family: 'Abril Fatface', cursive;*/
+  color: #222;
+  width: 500px;
+  /*position: absolute;*/
+}
+
+h1{
+  position: absolute;
+  /*bottom: 17 px;*/
+  left: 180px;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: bold;
+  margin-top: 155px;
+}
+
+.Anakin{
+  font-size: 85px;
+}
+
+main /*footer*/ {
+  margin-left: 20px;
+  margin-right: 200px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  /*font-size: 13px;*/
+  color: #222;
+  line-height: 1.5;
+  width: 700px;
+  
+}
+
+.first-p{
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.container2{
+  width: 1300px;
+  display: flex;
+  position: absolute;
+  margin-top: 400px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+}
+
+.masodik{
+  width: 700px;
+  margin-left: 20px;
+  margin-right: 200px;
+}
+
+.container3{
+  width: 1300px;
+  display: flex;
+  position: absolute;
+  margin-top: 560px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+}
+
+.container4{
+  width: 1300px;
+  display: flex;
+  position: absolute;
+  margin-top: 1100px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+}
+
+.idezet::before {
+  content: '”';
+  font-family: 'Abril Fatface', cursive;
+  font-size: 120px;
+  display: inline-block;
+  position: absolute;
+  transform: rotate(180deg);
+  top:-80px;
+  left:0px;
+}
+
+.idezet{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 43px;
+  color: #e38273;
+  background: #222;
+  /*margin-left: -50px;*/
+  height: 125px;
+  padding: 45px;
+  width: 500px;
+  position: relative;
+}
+#traning{
+  height: 200px;
+}
+
+h2{
+  font-variant-caps: all-small-caps;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+h3{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 23px;
+}
+
+h4{
+  margin-top: -5px;
+  font-style: italic;
+}
+
+ul{
+  line-height: 1.5;
+}
+
+li{
+  margin-left: 25px;
+}
